@@ -1,0 +1,63 @@
+{
+  "name": "@w3cwebstorage/w3cwebstorage-react",
+  "version": "0.0.0-development",
+  "description": "Web Storage with React Hooks",
+  "main": "./dist/index.cjs.js",
+  "module": "./dist/index.js",
+  "browser": "./dist/index.umd.js",
+  "scripts": {
+    "build": "rollup --config && jest --coverage --coverageReporters=text-lcov",
+    "test": "jest ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/w3cwebstorage/w3cwebstorage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/w3cwebstorage/w3cwebstorage/issues"
+  },
+  "homepage": "https://github.com/w3cwebstorage/w3cwebstorage#readme",
+  "author": "Darren Seet <darren@seet.dev>",
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+    "html5-storage",
+    "reactjs",
+    "react-hooks",
+    "localstorage",
+    "local-storage",
+    "browser",
+    "browser-storage",
+    "storage",
+    "web-storage"
+  ],
+  "devDependencies": {
+    "@babel/core": "7.7.7",
+    "@babel/preset-env": "7.7.7",
+    "@babel/preset-react": "7.7.4",
+    "@rollup/plugin-commonjs": "11.0.1",
+    "@rollup/plugin-node-resolve": "7.0.0",
+    "@testing-library/jest-dom": "4.2.4",
+    "@testing-library/react-hooks": "3.2.1",
+    "@w3cwebstorage/w3cwebstorage": "file://Users/darrens/Documents/ds/sc/github/w3cwebstorage/w3cwebstorage",
+    "babel-eslint": "10.0.3",
+    "babel-jest": "24.9.0",
+    "coveralls": "3.0.9",
+    "eslint": "6.8.0",
+    "eslint-config-prettier": "6.9.0",
+    "eslint-plugin-prettier": "3.1.2",
+    "eslint-plugin-react": "7.17.0",
+    "eslint-plugin-react-hooks": "2.3.0",
+    "jest": "24.9.0",
+    "jest-localstorage-mock": "2.4.0",
+    "prettier": "1.19.1",
+    "react": "16.12.0",
+    "react-test-renderer": "16.12.0",
+    "rollup": "1.28.0"
+  },
+  "peerDependencies": {
+    "@w3cwebstorage/w3cwebstorage": "file://Users/darrens/Documents/ds/sc/github/w3cwebstorage/w3cwebstorage",
+    "react": "16.12.0",
+    "react-test-renderer": "16.12.0"
+  }
+}

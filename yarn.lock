@@ -1043,8 +1043,10 @@
   dependencies:
     "@types/yargs-parser" "*"
 
-"@w3cwebstorage/w3cwebstorage@file:../w3cwebstorage":
-  version "0.0.0-development"
+"@w3cwebstorage/w3cwebstorage@0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@w3cwebstorage/w3cwebstorage/-/w3cwebstorage-0.1.2.tgz#78695d3461f5aeaeefabd994a074ff1a3928e3ae"
+  integrity sha512-PvseDF95eI+RWa7EKWtdnzF3KodtKMnxxQTTuhTnfozp4JDOTuxUc9lJ7aFk8KgS4/+yNOfshzEGbKNsZGd3lw==
 
 abab@^2.0.0:
   version "2.0.3"

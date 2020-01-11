@@ -1,4 +1,5 @@
 <a href="" target="__blank"><img alt="w3cwebstorage" src="logo.svg" width="60" /></a>
+<a href="https://github.com/w3cwebstorage/w3cwebstorage-react" target="__blank"><img alt="w3cwebstorage" src="https://raw.githubusercontent.com/w3cwebstorage/w3cwebstorage-react/master/logo.png" width="100" /></a>
 
 # w3cwebstorage-react
 
@@ -9,23 +10,7 @@
 
 ## Overview
 
-w3cwebstorage mades use of reducers to provide access to <a href="https://developers.google.com/web/fundamentals/instant-and-offline/web-storage">web storage</a> in modern web browsers. Reducer functions is a concept made popular by Redux which introduces reducers as the type of function you would pass to `Array.prototype.reduce(reducer, ?initialValue)`.
-
-Redux emphasizes that the reducer function needs to stay pure and it should not perform the following operations in the reducer:
-
-- Mutate its arguments;
-- Perform side effects like API calls and routing transitions;
-- Call non-pure functions, e.g. Date.now() or Math.random().
-
-w3cwebstorage attempts to follow the recommendations but do not follow the rules strictly. In particular w3cwebstorage breaks the rule of mutating the store argument passed into the reducer. Although it follows the rules of the reducer returning the same results when providing the same parameters (Same state of store argument will always be returned if it has the same initial state).
-
-### Implemented Stores
-
-1. Local Storage
-2. Session Storage (Design Phase)
-3. Cookies (Design Phase)
-4. IndexedDB (Design Phase)
-5. Cache API (Design Phase)
+w3cwebstorage-react provides hooks that can be consumed by React libraries or applications. The hooks provide access to <a href="https://developers.google.com/web/fundamentals/instant-and-offline/web-storage">web storage</a> in modern web browsers.
 
 ## Quick Start Guide
 
@@ -33,13 +18,25 @@ w3cwebstorage attempts to follow the recommendations but do not follow the rules
 
 #### Using npm
 
-`npm install --save @w3cwebstorage/w3cwebstorage`
+`npm install --save @w3cwebstorage/w3cwebstorage-react`
 
 #### Using yarn
 
-`yarn add @w3cwebstorage/w3cwebstorage`
+`yarn add @w3cwebstorage/w3cwebstorage-react`
 
-### Usage
+1. How to use [Local Storage](/src/localstorage/README.md)
+2. How to use Session Storage (To be implemented)
+3. How to use Cookies (To be implemented)
+4. How to use IndexedDB (To be implemented)
+5. How to use Cache API (To be implemented)
+
+### Implemented Hooks
+
+1. How to use useLocalStorage [useLocalStorage](/src/localstorage/README.md)
+2. How to use useSessionStorage (To be implemented)
+3. How to use useCookies (To be implemented)
+4. How to use useIndexedDb (To be implemented)
+5. How to use useCacheApi (To be implemented)
 
 ## License
 

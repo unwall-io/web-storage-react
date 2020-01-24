@@ -1,6 +1,6 @@
 {
   "name": "@unwall/web-storage-react",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Web Storage with React Hooks",
   "main": "./dist/index.cjs.js",
   "module": "./dist/index.js",
@@ -11,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/unwall-io/web-storage-react.git"
+    "url": "git+https://github.com/unwall/web-storage-react.git"
   },
   "bugs": {
-    "url": "https://github.com/unwall-io/web-storage-react/issues"
+    "url": "https://github.com/unwall/web-storage-react/issues"
   },
-  "homepage": "https://github.com/unwall-io/web-storage-react#readme",
+  "homepage": "https://github.com/unwall/web-storage-react#readme",
   "author": "Darren Seet <darren@seet.dev>",
   "license": "MIT",
   "private": false,
@@ -39,7 +39,6 @@
     "@rollup/plugin-node-resolve": "7.0.0",
     "@testing-library/jest-dom": "4.2.4",
     "@testing-library/react-hooks": "3.2.1",
-    "@unwall/web-storage": "git+https://github.com/unwall-io/web-storage.git",
     "babel-eslint": "10.0.3",
     "babel-jest": "24.9.0",
     "coveralls": "3.0.9",
@@ -61,5 +60,8 @@
   },
   "optionalDependencies": {
     "fsevents": "2.1.2"
+  },
+  "dependencies": {
+    "@use-it/event-listener": "0.1.3"
   }
 }

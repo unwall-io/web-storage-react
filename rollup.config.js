@@ -34,7 +34,7 @@ const legoNodeEs = input => ({
 });
 
 const config = ["./src/index.js"].reduce((previous, file) => {
-  previous.push(legoUmd(file, "web-storage-react"));
+  previous.push(legoUmd(file, "webStorageReact"));
   previous.push(legoNodeEs(file));
   return previous;
 }, []);
